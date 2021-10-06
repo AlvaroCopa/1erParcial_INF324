@@ -1,0 +1,128 @@
+body{
+    background-image: url(img/atrio.jpg);
+    background-color: #89B6DD; 
+    background-size: cover; 
+    background-position: right center; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+    color: white;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+header{
+    background-color: #333;
+    color: white;
+}
+.title{
+    padding-left: 24px;
+    float: left;
+}
+footer{
+    position:fixed;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: 100%;
+    bottom:0px;
+}
+
+form{
+	width:350px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color: rgba(204, 204, 204, 0.8);
+}
+
+form label{
+	width:95px;
+	font-weight:bold;
+    color: #2d2896;
+	display:inline-block;
+    font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="password"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+select {
+    border: 2px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 3px;
+    margin:8px 0;
+    width: 200px;
+}
+ 
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 2px 5px;
+}
+img{
+    position: center;
+    height: 20%;
+    width: 20%;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2624b3;
+    color: white;
+  }
